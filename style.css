@@ -10,6 +10,12 @@ html,body {
     color:white;
 }
 
+.header {
+    font-size:100px;
+    color:white;
+    background-color: rgba(23, 39, 92, 0.63);
+}
+
 ul {
     list-style-type: none;
     margin: 0;
