@@ -8,12 +8,27 @@ html,body {
     font-style:bold;
     background-color:rgba(23, 39, 92, 0.63);
     color:white;
+    width:270px;
+    height: 100%;
+    
 }
 
 .header {
-    font-size:100px;
+    font-size:70px;
     color:white;
     background-color: rgba(23, 39, 92, 0.63);
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 70px;
+    width:100%;
+    text-align: center;
+    opacity:1;
+}
+
+.BGIMG {
+    opacity:1;
 }
 
 ul {
