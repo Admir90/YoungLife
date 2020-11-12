@@ -3,7 +3,7 @@ html,body {
 }
 
 .BigBar {
-   background-color:rgba(10, 25, 80, 1);
+   background-color:rgb(0, 50, 77);
 }
 
 .navigator {
@@ -58,4 +58,4 @@ i {
     margin-left: 1%;
 }
 
-i:hover {color:rgb(15, 236, 13);}
+i:hover {color:rgb(151, 195, 60);}
