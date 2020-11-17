@@ -7,45 +7,47 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
-<body class="BGIMG" style="background-image: url('./img/GroupPicture1.PNG'); filter:blur(8px) !important;"  onclick="noblur()">
-    <div >
-    </div>
-    <div class="BigBar">
-        <div class="navigator">
-            <i onclick="shownav()" class="fa fa-bars"></i>
-        <ul id="navbar" style="display: none;">
-            <li><a href="index.html">Home</a></li>
-                <li><a href="Camp.html">Camp</a></li>
-                <li><a href="Contact_Us.html">Contact Us</a></li>
-                <li><a href="Club.html">Club</a></li>
-                <li><a href="Donate.html">Donate</a></li>
-                <li><a href="FAQ's.html">FAQ's</a></li>
-            </ul>  
-        </div>  
-        <div class="header">
-            Header
+<div onclick="noblur"; id="blur">
+    <body class="BGIMG";>
+        <div class="BigBar">
+            <div class="navigator">
+                <i onclick="shownav()" class="fa fa-bars"></i>
+            <ul id="navbar" style="display: none;">
+                <li><a href="index.html">Home</a></li>
+                    <li><a href="Camp.html">Camp</a></li>
+                    <li><a href="Contact_Us.html">Contact Us</a></li>
+                    <li><a href="Club.html">Club</a></li>
+                    <li><a href="Donate.html">Donate</a></li>
+                    <li><a href="FAQ's.html">FAQ's</a></li>
+                </ul>  
+            </div>  
+            <div class="header">
+                Header
+            </div>
         </div>
-    </div>
+        <p style="width: 100%; height: 100%;" backdrop-filter:blur(5px)>
+            Hello this is text and this is more text
+        </p>
 
-    <script>
-        function shownav() {
-            let x = document.getElementById("navbar");
-    if ( x.style.display === "none") {
-        x.style.display = "block";
-    } 
-    else{
-        x.style.display = "none";
-    }
-        }
-    
-        function noblur() {
-            document.getElementById("blur").display = "none";
-            
-        }
-    </script>   
-</body>
 
+        <script>
+            function shownav() {
+                let x = document.getElementById("navbar");
+        if ( x.style.display === "none") {
+            x.style.display = "block";
+        } 
+        else{
+            x.style.display = "none";
+        }
+            }
+        
+            function noblur() {
+                document.getElementById("blur").display = "none";
+                
+            }
+        </script>   
+    </body>
+</div>
 </html>
 
           
