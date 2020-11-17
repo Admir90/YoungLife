@@ -7,6 +7,20 @@ html,body {
    background-color:rgb(0, 50, 77);
 }
 
+body {
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+    height:100%;
+    width:100%;
+}
+
+#noblur {
+    display:none;
+}
+
 .navigator {
     font-style:comic;
     font-size:60px;
