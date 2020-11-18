@@ -1,7 +1,7 @@
 html,body {
-    margin: 0;
-    background-color: #d2b48;
-}
+    margin: 0; 
+    background-color: rgb(238, 231, 181);
+}   
 
 .BigBar {
    background-color:rgb(0, 50, 77);
@@ -14,7 +14,6 @@ body {
 
 #blur {
     filter:blur(7px)
-    backdrop-filter: blur(5px); 
 }
 
 .navigator {
@@ -39,12 +38,6 @@ body {
     text-align:center;
 }
 
-.BGIMG {
-    background-image: url('./img/GroupPicture1.PNG');
-    filter: blur(5px);
-    -webkit-filter: blur(5px)
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -55,6 +48,7 @@ ul {
 
 #navbar {
     background-color:rgb(0, 50, 77);
+    width:300px;
 }
 
 ul a:hover {
