@@ -43,6 +43,13 @@ body {
     line-height:1.1;
 }
 
+.Carousel {
+    max-height:50%;
+    max-width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -77,4 +84,6 @@ i:hover {
 .center {
     text-align: center;
     border: 5px solid rgb(0, 50, 77);
+    border-style: inset;
+    font-size: 200%;
   }
