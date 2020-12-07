@@ -68,6 +68,19 @@ body {
     font-size: 300%;
 }
 
+.boxFAQ {
+    background-color: darkblue;
+    width: 80%;
+    border:13px solid darkorange;
+    padding:1%;
+    margin:0%;
+    margin-left:10%;
+    color:lime;
+    font-style:bold;
+    font-size:300%;
+    
+}
+
 .behind {
     z-index: 1;
 }
