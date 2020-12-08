@@ -29,24 +29,24 @@
     <!--navbar Ending-->
     <h1 style="margin-bottom:1%;" class="heading">FAQ'S</h1>
     <div>
-        <div class="boxFAQ"><h1>Question Goes Here <i class="fas fa-angle-up"></i></h1></div>
-        <h1 class="boxFAQ">Answer goes Here
+        <div class="boxFAQ"><h1>Question Goes Here<i onclick="showanswer1()" class="fa fa-bars"></i></h1></div>
+        <h1  id="answer1" style="display:none;" class="boxFAQ">Answer goes Here
             <br> For more information click <a href="Link">here</a>
         </h1>
-        <div class="boxFAQ"><h1>Question Goes Here</h1></div>
-        <h1 class="boxFAQ">Answer goes Here
+        <div class="boxFAQ"><h1>Question Goes Here<i onclick="showanswer2()" class="fa fa-bars"></i></h1></div>
+        <h1 id="answer2" class="boxFAQ" style="display:none;">Answer goes Here
             <br> For more information click <a href="Link">here</a>
         </h1>
-        <div class="boxFAQ"><h1>Question Goes Here</h1></div>
-        <h1 class="boxFAQ">Answer goes Here
+        <div class="boxFAQ"><h1>Question Goes Here<i onclick="showanswer3()" class="fa fa-bars"></i></h1></div>
+        <h1 id="answer3" class="boxFAQ" style="display:none;">Answer goes Here
             <br> For more information click <a href="Link">here</a>
         </h1>
-        <div class="boxFAQ"><h1>Question Goes Here</h1></div>
-        <h1 class="boxFAQ">Answer goes Here
+        <div class="boxFAQ"><h1>Question Goes Here<i onclick="showanswer4()" class="fa fa-bars"></i></h1></div>
+        <h1 id="answer4" class="boxFAQ" style="display:none;">Answer goes Here
             <br> For more information click <a href="Link">here</a>
         </h1>
-        <div class="boxFAQ"><h1>Question Goes Here</h1>
-        <h1 style="margin-bottom:1%" class="boxFAQ">Answer goes Here
+        <div class="boxFAQ"><h1>Question Goes Here<i onclick="showanswer5()" class="fa fa-bars"></i></h1></div>
+        <h1 id="answer5" class="boxFAQ" style="display:none;">Answer goes Here
             <br> For more information click <a href="Link">here</a>
         </h1>
     </div>
@@ -63,6 +63,52 @@ if ( x.style.display === "none"){
     x.style.display = "none";
 }
     }
+
+    function showanswer1() {
+        let y = document.getElementById("answer1");
+if ( y.style.display === "none"){
+    y.style.display = "block";
+} else{
+    y.style.display = "none";
+}
+    }
+
+    function showanswer2() {
+        let y = document.getElementById("answer2");
+if ( y.style.display === "none"){
+    y.style.display = "block";
+} else{
+    y.style.display = "none";
+}
+    }
+
+    function showanswer3() {
+        let y = document.getElementById("answer3");
+if ( y.style.display === "none"){
+    y.style.display = "block";
+} else{
+    y.style.display = "none";
+}
+    }
+
+    function showanswer4() {
+        let y = document.getElementById("answer4");
+if ( y.style.display === "none"){
+    y.style.display = "block";
+} else{
+    y.style.display = "none";
+}
+    }
+
+    function showanswer5() {
+        let y = document.getElementById("answer5");
+if ( y.style.display === "none"){
+    y.style.display = "block";
+} else{
+    y.style.display = "none";
+}
+    }
+
 </script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
