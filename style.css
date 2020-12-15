@@ -65,27 +65,29 @@ body {
 
 .boxl {
     float: left;
-    background-color:#2a3e65;
+    background-color: #2a3e65;
     width:48%;
     border:20px double white;
     padding:3%;
     margin-left:2%;
     margin-top: 1%;
     font-style:bold;
-    font-size: 324%;
+    font-size: 240%;
+    font-family: Bradley Hand, cursive	
 }
 
 .boxr {
     float: right;
-    background-color:white;
+    background-color:#2a3e65;
     width:48%;
-    border:20px double #2a3e65;
+    border:20px double white;
     padding:3%;
     margin-right:2%;
     margin-top: 1%;
     color:#f77f00;
     font-style:bold;
     font-size: 300%;
+    font-family: Impact, fantasy;
 }
 
 .boxFAQ {
@@ -99,6 +101,18 @@ body {
     font-style:bold;
     font-size:300%;
     
+}
+
+.AboxFAQ {
+    background-color: #2a3e65;
+    width: 80%;
+    border:13px solid #f77f00;
+    padding:1%;
+    margin:0%;
+    margin-left:10%;
+    color:white;
+    font-style:bold italic;
+    font: size 200%;
 }
 
 .behind {
@@ -121,10 +135,10 @@ body {
 }
 
 .Carousel {
-    max-height:50%;
-    max-width:50%;
-    margin-left:auto;
-    margin-right:auto;
+  max-width: 25%;
+  max-height: 25%;
+  margin-right: auto;
+  margin-left:auto;
 }
 
 ul {
