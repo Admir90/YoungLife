@@ -52,8 +52,8 @@ body {
 
 .donatebutton {
     background-color:white;
-    border:10px solid darkorange;
-    color:darkorange;
+    border:10px solid #f77f00;
+    color:#f77f00;
     padding: 15px 32px;
     text-align:center;
     text-decoration:none;
@@ -65,7 +65,7 @@ body {
 
 .boxl {
     float: left;
-    background-color:darkblue;
+    background-color:#2a3e65;
     width:48%;
     border:20px double white;
     padding:3%;
@@ -79,23 +79,23 @@ body {
     float: right;
     background-color:white;
     width:48%;
-    border:20px double darkblue;
+    border:20px double #2a3e65;
     padding:3%;
     margin-right:2%;
     margin-top: 1%;
-    color:darkorange;
+    color:#f77f00;
     font-style:bold;
     font-size: 300%;
 }
 
 .boxFAQ {
-    background-color: darkblue;
+    background-color: #2a3e65;
     width: 80%;
-    border:13px solid darkorange;
+    border:13px solid #f77f00;
     padding:1%;
     margin:0%;
     margin-left:10%;
-    color:lime;
+    color:#21ff00;
     font-style:bold;
     font-size:300%;
     
@@ -136,7 +136,7 @@ ul {
 }
 
 #navbar {
-    background-color:rgb(0, 50, 77);
+    background-color:#2a3e65;
     width:300px;
 }
 
@@ -144,8 +144,8 @@ ul {
     font-size: 150px;
     text-align: center;
     margin-bottom:0%;
-    color:lime;
-    -webkit-text-stroke: 6px darkblue;
+    color:#21ff00;
+    -webkit-text-stroke: 6px #2a3e65;
 }
 
 ul a:hover {
@@ -168,7 +168,7 @@ i:hover {
 
 .davis {
     text-align: center;
-    border: 5px solid rgb(0, 50, 77);
+    border: 5px solid #2a3e65;
     border-style: groove;
     border-width: 15px;
     border-color: grey;
