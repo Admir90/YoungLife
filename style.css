@@ -65,11 +65,7 @@ body {
 
 .boxl {
     float: left;
-<<<<<<< HEAD
-    background-color:#2a3e65;
-=======
     background-color: #2a3e65;
->>>>>>> 8bb3aa8488585a32047263f31f5f8e1ff28c8409
     width:48%;
     border:20px double white;
     padding:3%;
@@ -84,11 +80,7 @@ body {
     float: right;
     background-color:#2a3e65;
     width:48%;
-<<<<<<< HEAD
-    border:20px double #2a3e65;
-=======
     border:20px double white;
->>>>>>> 8bb3aa8488585a32047263f31f5f8e1ff28c8409
     padding:3%;
     margin-right:2%;
     margin-top: 1%;
@@ -202,8 +194,6 @@ i:hover {
     margin-bottom: -100px;
     padding-top: 20px;
     padding-bottom: 10px;
-<<<<<<< HEAD
-=======
   }
 
 .title {
@@ -211,10 +201,7 @@ i:hover {
     color:#21ff00;
     font-size: 400px;
     text-align: center;
->>>>>>> 8bb3aa8488585a32047263f31f5f8e1ff28c8409
 }
-
-
 .img {
     text-align: right;
     border:4px solid #2a3e65;
