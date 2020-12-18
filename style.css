@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
 html,body {
-    margin: 0; 
-    background-color:#d2b48c;
+    margin: 0;
+    background-color: #d2b48c;
 }   
 
 .BigBar {
@@ -235,5 +237,79 @@ i:hover {
     margin-bottom: 40px;
 }
 img.d-block{
-    padding:5.5em;
+    padding-bottom: 3em;
+    padding-top: 4em;
+    padding-right: 5em;
+    padding-left: 5em;
+}
+img.person1 {
+    float: left;
+    border-radius: 80%;
+    position: relative;
+
+}
+p {
+    padding: 2em;
+    padding-left: 15px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 43px;
+    color: #21ff00;
+    background-color: #2a3e65;
+    font-style: bold;
+}
+
+.quote1 {
+    padding-top: 15em;
+}
+
+img.person2 {
+    float: right;
+    border-radius: 80%;
+    position: relative;
+}
+
+.quote2 {
+    padding-top: 19%;
+}
+
+.luke {
+    padding-top: 17%;
+}
+
+h2 {
+    font-family: inherit;
+    font-size: 80px;
+    font-style: italic, bold;
+    color: #21ff00;
+    background-color: #2a3e65;
+    margin-right: 17.72em;
+    margin-left: .15em;
+}
+
+.pic-luke {
+    float: left;
+}
+p.simple {
+    text-align: center;
+    
+}
+
+.last {
+    padding-top: 11em;
+}
+
+.group {
+    margin-left: 1.5em;
+    float: left;
+}
+
+h3 {
+    padding-left: 33em;
+    padding-right: 10em;
+    padding-top: -10em;
+    float: right;
+    font-size: 60px;
+    color: #21ff00;
+    -webkit-text-stroke-color: #2a3e65;
+    -webkit-text-stroke-width: 3.2px;
 }
