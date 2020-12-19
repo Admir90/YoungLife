@@ -296,20 +296,61 @@ p.simple {
 
 .last {
     padding-top: 11em;
+    padding-bottom: 5em;
 }
 
 .group {
-    margin-left: 1.5em;
     float: left;
+    margin-left: .50em;
+    vertical-align: middle;
 }
 
 h3 {
-    padding-left: 33em;
-    padding-right: 10em;
-    padding-top: -10em;
     float: right;
-    font-size: 60px;
+    font-size: 70px;
     color: #21ff00;
     -webkit-text-stroke-color: #2a3e65;
-    -webkit-text-stroke-width: 3.2px;
+    -webkit-text-stroke-width: 3.8px;
+    display: inline;
+    margin-left: 12.7em;
+    margin-top: -7em;
+    
+}
+
+footer {
+    padding-top: 22em;
+}
+.footer {
+    text-align: center;
+    background-color: #2a3e65;
+    padding-bottom: .05em;
+    color: white;
+    font-family: comic;
+    font-size: 50px;
+    bottom: 0;
+}
+
+.Camp1 {
+   margin-left: 83em;
+   margin-bottom: 1em;
+   margin-top: 8em;
+}
+
+p.explain {
+    margin-right: 32.3em;
+}
+
+.exper {
+    margin-left: 85em ;
+}
+.down {
+    padding-top: 5em;
+}
+
+.up {
+    padding-top: -10em;
+}
+.info {
+    text-align: center;
+    margin-top: 3em;
 }
